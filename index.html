@@ -47,12 +47,9 @@
         <div class="btn-container">
           <button
             class="btn btn-color-2"
-            onclick="window.open('./assets/resume-example.pdf')"
+            onclick="window.open('./assets/resume-example.pdf')"target="_blank" rel="noopener"
           >
             Download CV
-          </button>
-          <button class="btn btn-color-1" onclick="location.href='./#contact'">
-            Contact Info
           </button>
         </div>
         <div id="socials-container">
@@ -60,15 +57,15 @@
             src="./assets/linkedin.png"
             alt="My LinkedIn profile"
             class="icon"
-            onclick="location.href='https://www.linkedin.com/in/shyamli-ranjan/'"
+            onclick="location.href=window.open('https://www.linkedin.com/in/shyamli-ranjan/')"target="_blank" rel="noopener"
           />
           <img
             src="./assets/github.png"
             alt="My Github profile"
             class="icon"
-            onclick="location.href='https://github.com/ShyamliRanjan'"
-          />
-        </div>
+            onclick="location.href=window.open('https://github.com/ShyamliRanjan')"target="_blank" rel="noopener"
+            />
+          </div>
       </div>
     </section>
     <section id="about">
@@ -105,7 +102,7 @@
           </div>
           <div class="text-container">
             <p>
-                Enthusiastic and Quick-Learning Data Analyst with foundational knowledge in
+                Enthusiastic and Quick-Learning Data Analyst with knowledge in
                  SQL, Power BI, and Advanced Excel. I am passionate about uncovering patterns
                  in data and generating insights that drive data-driven decision-making. With
                  strong analytical skills and a solid grasp of data visualization principles,
@@ -115,12 +112,6 @@
           </div>
         </div>
       </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#experience'"
-      />
     </section>
     <section id="experience">
       <p class="section__text__p1">Explore My</p>
@@ -138,7 +129,7 @@
                 />
                 <div>
                   <h3>SQL</h3>
-                  <p>Experienced</p>
+                  <p>Intermediate</p>
                 </div>
               </article>
               <article>
@@ -147,6 +138,7 @@
                   alt="Experience icon"
                   class="icon"
                 />
+
                 <div>
                   <h3>PowerBI</h3>
                   <p>Intermediate</p>
@@ -160,7 +152,7 @@
                 />
                 <div>
                   <h3>Adv.Excel</h3>
-                  <p>Experienced</p>
+                  <p>Intermediate</p>
                 </div>
               </article>
             </div>
@@ -208,7 +200,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>D.A. Job Simulation</h3>
+                  <h3>D.A. & Visualization Job Simulation</h3>
                   <p>Forage</p>
                 </div>
               </article>
@@ -216,15 +208,9 @@
           </div>
         </div>
       </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#projects'"
-      />
     </section>
     <section id="projects">
-      <p class="section__text__p1">Browse My Recent</p>
+      <p class="section__text__p1">Browse My </p>
       <h1 class="title">Projects</h1>
       <div class="experience-details-container">
         <div class="about-containers">
@@ -236,19 +222,13 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project One</h2>
+            <h2 class="experience-sub-title project-title">SQL Projects</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href=window.open('https://github.com/ShyamliRanjan/SQL-Projects')"target="_blank"
               >
                 Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
               </button>
             </div>
           </div>
@@ -260,19 +240,13 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <h2 class="experience-sub-title project-title">Excel Projects</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href=window.open('https://github.com/ShyamliRanjan/Excel-Dashboard-Project')"target="_blank"
               >
                 Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
               </button>
             </div>
           </div>
@@ -284,30 +258,18 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <h2 class="experience-sub-title project-title">PowerBI Projects</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
+                onclick="location.href=window.open('https://github.com/ShyamliRanjan/Power-BI---Projects')"target="_blank"
+                >
                 Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
               </button>
             </div>
           </div>
         </div>
       </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#contact'"
-      />
     </section>
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
@@ -327,7 +289,7 @@
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
-          <p><a href="https://www.linkedin.com/in/shyamli-ranjan/">LinkedIn</a></p>
+          <p><a href="https://www.linkedin.com/in/shyamli-ranjan/" target="_blank" rel="noopener">LinkedIn</a></p>
         </div>
       </div>
     </section>
@@ -342,7 +304,7 @@
           </ul>
         </div>
       </nav>
-      <p>Copyright &#169; 2024 Shyamli-Ranjan. All Rights Reserved.</p>
+      <p>Copyright &#169; 2024 Shyamli Ranjan. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
   </body>
